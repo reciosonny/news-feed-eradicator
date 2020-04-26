@@ -219,6 +219,7 @@ button.nfe-button-primary {
 	font-weight: 400;
 }
 
+
 .nfe-checkbox {
 	cursor: pointer;
 	position: relative;
@@ -244,4 +245,11 @@ div.ego_column,
 #pagelet_canvas_nav_content {
 	opacity: 0 !important;
 	pointer-events: none !important;
+}
+
+div[role=feed],
+div[aria-label=Stories] {
+	opacity: 0 !important;
+	pointer-events: none !important;
+	height: 0 !important;
 }
